@@ -1,0 +1,101 @@
+#body{
+    width: 100%;
+    height: 400px;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#content{
+    position: fixed;
+    top:40%;
+    left:30%;
+}
+
+#form{
+    z-index:-1;
+}
+
+#nowplaying{
+    position: fixed;
+    top:40%;
+    left:47%;
+}
+
+#thumbs{
+    z-index:3;
+    position: fixed;
+    top:40%;
+    left:36%
+}
+#play-ui{
+    position: fixed;
+    z-index:4 ;
+    top:49%;
+    left:47%;
+}
+
+#pause-ui{
+    z-index: 4;
+    position: fixed;
+    top:49%;
+    left:51%;
+}
+
+#skip-ui{
+    z-index: 4;
+    position: fixed;
+    top:49%;
+    left:56%;
+}
+
+#progress{
+    position: fixed;
+    top: 45%;
+    left: 47%
+}
+
+#volume{
+    z-index: 3;
+    position: fixed;
+    top:54%;
+    left: 47%;
+}
+
+#vol-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:53%;
+}
+
+#vol-high-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:60%;
+}
+
+#vol-low-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:64%;
+}
+
+#haai{
+    
+   left:20; 
+    margin-left: 10px;
+}
+
+ #tweetbox{
+     z-index: 4;
+     position: fixed;
+     top:10%;
+     left:10
+ }
+section { 
+    display: block;
+}
