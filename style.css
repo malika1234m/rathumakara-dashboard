@@ -1,0 +1,148 @@
+
+#body{
+    width: 100%;
+    height: 400px;
+   background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#content{
+    position: fixed;
+    top:40%;
+    left:30%;
+}
+
+#form{
+    z-index:-1;
+}
+
+#nowplaying{
+    position: fixed;
+    top:40%;
+    left:55%;
+}
+
+#thumbs{
+    z-index:3;
+    position: fixed;
+    top:41.5%;
+    left:45%
+}
+#play-ui{
+    position: fixed;
+    z-index:4 ;
+    top:49%;
+    left:55%;
+}
+
+#pause-ui{
+    z-index: 4;
+    position: fixed;
+    top:49%;
+    left:59%;
+}
+
+#skip-ui{
+    z-index: 4;
+    position: fixed;
+    top:49%;
+    left:64%;
+}
+
+#progress{
+    position: fixed;
+    top: 45%;
+    left: 55%
+}
+
+#volume{
+    z-index: 3;
+    position: fixed;
+    top:54%;
+    left: 55%;
+}
+
+#vol-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:61%;
+}
+
+#vol-high-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:68%;
+}
+
+#vol-low-ui{
+    z-index: 4;
+    position: fixed;
+    top:54%;
+    left:72%;
+}
+
+#haai{
+    
+   left:20; 
+    margin-left: 10px;
+}
+
+ #tweetbox{
+     z-index: 4;
+     position: fixed;
+     top:10%;
+     left:10
+ }
+section { 
+    display: block;
+}
+
+#list{
+    position: fixed;
+    width:30%;
+    top:45%;
+    left:9%;
+}
+
+#songreq{
+    position: fixed;
+    top:40%;
+    left:9%;
+    width:26%;
+}
+
+#btn-req{
+    position: fixed;
+    top:40%;
+    left:35.5%;
+}
+.badge{
+    font-style: italic;
+    color:red;
+}
+
+#songthumb{
+    z-index:3;
+    position: fixed;
+    top:60%;
+    left:47%;
+  
+}
+
+#songtitle{
+    position: fixed;
+    top:62%;
+    left:55%;
+}
+
+#addto-queue{
+    position: fixed;
+    top:65%;
+    left:55%;
+}
+
