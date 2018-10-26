@@ -37,6 +37,7 @@ function volume_high(){
   })
 }
 
+
 //progress bar
 function getprogress(){
     $.get("https://rathumakara.supiritech.com/API/progress", function(data, status){
@@ -54,7 +55,7 @@ function addToQueue(){
 //Youtube Dats API v3
 
 function keyWordsearch(){
-  gapi.client.setApiKey('YOUR_API_KEY');
+  gapi.client.setApiKey('AIzaSyBpkvDP5X_E0D3Jdzq-14SVugYzdaF82AQ');
   gapi.client.load('youtube', 'v3', function() {
           makeRequest();
   });
