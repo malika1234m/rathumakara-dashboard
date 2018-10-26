@@ -105,10 +105,14 @@ section {
 
 #list{
     position: fixed;
-    width:30%;
+    width:31%;
     top:45%;
     left:9%;
     color:#000000;
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #songreq{
@@ -147,4 +151,5 @@ section {
     top:65%;
     left:55%;
 }
+
 
