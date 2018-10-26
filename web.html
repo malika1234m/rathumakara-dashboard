@@ -70,30 +70,33 @@
             <ul class="list-group">
                 <li class="list-group-item ">IRAJ - Manike Obe Sinawe | TikTok Version<span class="badge">Now Playing</span></li> <!--5spaces-->
                 <li class="list-group-item">Impossible - Shontelle</li> 
-                <li class="list-group-item">Faded - Alan Walker</span></li>
-                <li class="list-group-item">Wake Me Up - AVICII</span></li>
-                <li class="list-group-item">Bitch Lasagna - PewDiePie</span></li>
+                <li class="list-group-item">Faded - Alan Walker</li>
+                <li class="list-group-item">Wake Me Up - AVICII</li>
+                <li class="list-group-item" id ="#queueitem">Bitch Lasagna - PewDiePie</span></li>
             </ul>
         </div>
 
         <!--Song request area-->
+       
         <div class="form-group" id="songreq" >
             <input type="text" class="form-control" id="req" >
         </div>
                 
         <div class="form-group" id="songreq-ui">
-            <button id="btn-req" type="submit" class="btn btn-warning">Add</button>
+            <button id="btn-req" type="submit" class="btn btn-warning" onclick="keyWordsearch()" onsubmit="return false">Search</button>
         </div>
+       
 
         <!--Song search-->
+
         <!--song thumbnail-->
         <div class="form-group" id="songthumb">
-            <img src="images/thumb.jpg" class="img-rounded" alt="rathu makara" style="width:120px;height:90px">
+            <img id="ytthumb" src="images/thumb.jpg" class="img-rounded" alt="rathu makara" style="width:120px;height:90px">
         </div>
 
         <!--song title-->
         <div class="form-group" id="songtitle">
-                <label for="nowplaying"><h6 style="color:white">ගිනියම් රෑ with Ranuka D!<h6></label>
+                <label id="ytname" for="nowplaying"><h6 style="color:white">ගිනියම් රෑ with Ranuka D<h6></label>
         </div>
 
         <!--add to queue-->
@@ -105,8 +108,12 @@
 
     <div>
 
+
+
+
+
   
-    
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"> </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
