@@ -54,7 +54,7 @@ function addToQueue(){
 //Youtube Dats API v3
 
 function keyWordsearch(){
-  gapi.client.setApiKey('AIzaSyBpkvDP5X_E0D3Jdzq-14SVugYzdaF82AQ');
+  gapi.client.setApiKey('YOUR_API_KEY');
   gapi.client.load('youtube', 'v3', function() {
           makeRequest();
   });
